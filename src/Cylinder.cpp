@@ -29,6 +29,6 @@ ostream & operator<<(ostream & out, Cylinder & cldr)
     out << fixed << setprecision(3) << "SurfaceArea: " << cldr.SurfaceArea() << endl;
     out << fixed << setprecision(3) << "Volume: " << cldr.Volume() << endl;
     return out;
-}
+} 
 
 # endif
